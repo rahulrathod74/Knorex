@@ -7,7 +7,7 @@ import {
   exportUsers
 } from '../controllers/userController.js';
 
-const router = expres
+const router = express.Router();
 
 
 
