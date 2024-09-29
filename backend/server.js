@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/fullStackApp', {
+mongoose.connect('mongodb://localhost:27017/fullstackApp', {
 }).then(() => console.log("MongoDB connected"))
   .catch(err => console.error("Connection error", err));
 
